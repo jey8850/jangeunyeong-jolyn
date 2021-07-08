@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/common.css"> 
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="library/css/jquery.bxslider.min.css">
 </head>
 <body>
     <!-- 헤더 -->
@@ -12,13 +15,19 @@
         <div class="gnb_container">
             <div class="gnb">
                 <div class="logo">
-                    <a href="#"><img src="https://via.placeholder.com/50" alt="로고"></a>
+                    <a href="#"><img src="https://via.placeholder.com/150x50" alt="로고"></a>
                 </div>
                 <ul class="menu">
                     <li><a href="#">브랜드</a></li>
                     <li><a href="#">신상품</a></li>
                     <li><a href="#">온라인 스토어</a></li>
                     <li><a href="#">커뮤니티</a></li>
+                </ul>
+                <ul class="icon">
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">장바구니</a></li>
+                    <li><a href="#">검색</a></li>
                 </ul>
             </div>
             <div class="lnb_container">
@@ -49,21 +58,34 @@
     <!-- 콘텐츠 -->
     <div id="main_content">
         <!-- 이미지 슬라이더 -->
-        <section>
-            <div></div>
+        <section class=".mainimg">
+            <ul class="bxslider"> 
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </section>
         <!-- 베스트 상품 -->
-        <section>
+        <section class="best">
             <div>
                 <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
                 <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
                 <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
                 <img src="https://via.placeholder.com/200">
             </div>
         </section>
         <!-- 회원가입 혜택 안내 -->
-        <section>
+        <section class="event">
             <div>
+                <img src="https://via.placeholder.com/960x500">
+                <img src="https://via.placeholder.com/960x500">
+                <img src="https://via.placeholder.com/960x500">
                 <img src="https://via.placeholder.com/960x500">
             </div>
         </section>
@@ -77,6 +99,20 @@
     <div id="mobile_menu"></div>
     <!-- 푸터 -->
     <footer id="main_footer">
+        <h2>하단메뉴</h2>
+        <ul>
+            <li><a href="#">하단메뉴</a></li>
+            <li><a href="#">하단메뉴</a></li>
+            <li><a href="#">하단메뉴</a></li>
+            <li><a href="#">하단메뉴</a></li>
+        </ul>
     </footer>
+
+    <!-- 라이브러리 -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="library/jquery.bxslider.min.js"></script>
+
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
