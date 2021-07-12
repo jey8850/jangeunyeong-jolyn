@@ -5,7 +5,8 @@ $(document).ready(function(){
         autoControls: false, // 시작, 정지버튼 노출 여부 
         controls: false, // prev/next 버튼 노출 여부 
         pager: false //불릿버튼
-    }); 
+    });
+    
     var windowWidth = $(window).width(),
     windowHeight = $(window).height(),
     adjHeight = windowHeight;
