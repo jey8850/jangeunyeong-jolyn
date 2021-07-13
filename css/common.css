@@ -37,14 +37,13 @@ a { text-decoration: none;}
 }
 
 
-
 #main_header .menu > li {
     float: left;
     padding : 20px;
 }
 
 #main_header .menu .submenu {
-    height: 200px;
+    height: 150px;
     padding-top: 20px;
 }
 
@@ -61,11 +60,9 @@ a { text-decoration: none;}
 
 /* 메뉴 드롭다운 */
 
-#main_header .gnb_container .submenu{
+#main_header .gnb_container .submenu {
     display: none;
 }
-
-/* #main_header .menu > li:hover .lnb */
 
 #main_header .menu > li:hover .submenu {
     display: block;
