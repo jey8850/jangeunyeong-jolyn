@@ -11,15 +11,17 @@ a { text-decoration: none;}
     width: 100%;
 }
 
-#main_header .gnb_container {
-    background-color: grey;
-    width: 100%;
+#main_header > .gnb_container{
+    position: relative;
 }
 
 #main_header .gnb {
+    width: 100%;
     overflow: hidden;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
+    z-index: 1;
+    background-color: darkgray;
 }
 
 #main_header .logo {
@@ -34,11 +36,12 @@ a { text-decoration: none;}
     overflow: hidden;
 }
 
+
+
 #main_header .menu > li {
     float: left;
-    padding: 20px;
+    padding : 20px;
 }
-
 
 #main_header .menu .submenu {
     height: 200px;
@@ -62,7 +65,9 @@ a { text-decoration: none;}
     display: none;
 }
 
-#main_header .menu > li:hover .submenu{
+/* #main_header .menu > li:hover .lnb */
+
+#main_header .menu > li:hover .submenu {
     display: block;
 }
 

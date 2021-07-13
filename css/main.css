@@ -2,7 +2,6 @@
 
 /* 이미지 슬라이더 */
 
-
 .bxslider {
     margin: 0 auto;
     min-width: 100%;
@@ -10,12 +9,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: absolute;
 
 }
 
 .bxslider > li {
-    position: relative;
-    text-align: center;
+    position: absolute;
     margin: 0 auto;
 }
 
@@ -33,16 +32,6 @@
     left: 50%;
     font-size: 1.5em;
 }
-
-/* 
-.bxslider li{
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-}
-.bx-wrapper .bx-viewport{
-    border: none;
-} */
 
 
 /* 인스타 연동 */
