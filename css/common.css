@@ -42,6 +42,10 @@ a { text-decoration: none;}
     padding : 20px;
 }
 
+#main_header .menu > li > .lnb {
+    overflow: hidden;
+}
+
 #main_header .menu .submenu {
     height: 150px;
     padding-top: 20px;
@@ -64,10 +68,18 @@ a { text-decoration: none;}
     display: none;
 }
 
+#main_header .gnb_container .menu .menuimg {
+    display: none;
+}
+
 #main_header .menu > li:hover .submenu {
     display: block;
 }
 
+#main_header .menu > li:hover .menuimg {
+    display: none;
+
+}
 /* 모바일메뉴 */
 
 @media screen and (max-width:767px) {
@@ -87,9 +99,8 @@ a { text-decoration: none;}
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
-    text-align: center;
-} 
-
+    text-align: center; 
+}
 
 /* #main_content .event {} */
 
