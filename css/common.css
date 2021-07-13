@@ -25,6 +25,8 @@ a { text-decoration: none;}
 #main_header .logo {
     float: left;
     width: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 #main_header .menu {
@@ -37,6 +39,12 @@ a { text-decoration: none;}
     padding: 20px;
 }
 
+
+#main_header .menu .submenu {
+    height: 200px;
+    padding-top: 20px;
+}
+
 #mian_header .icon {
     float: left;
     overflow: hidden;
@@ -45,6 +53,7 @@ a { text-decoration: none;}
 #main_header .icon > li {
     float: right;
     padding: 10px;
+    margin-top: 10px;
 }
 
 /* 메뉴 드롭다운 */
@@ -58,6 +67,7 @@ a { text-decoration: none;}
 }
 
 /* 모바일메뉴 */
+
 @media screen and (max-width:767px) {
     #main_header .gnb .menu {
         display: none;
@@ -93,10 +103,10 @@ a { text-decoration: none;}
 }
 
 #main_footer > div:first-child {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 #main_footer > div:last-child {
     float: right;
-    margin-right: 20%;
+    margin-right: 10%;
 }
