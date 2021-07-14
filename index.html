@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/common.css"> 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="library/css/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="library/css/all.min.css">
 </head>
 <body>
     <!-- 헤더 -->
@@ -18,36 +19,53 @@
                     <a href="#"><img src="https://via.placeholder.com/150x50" alt="로고"></a>
                 </div>
                 <ul class="menu">
-                    <li><a href="#">브랜드</a></li>
-                    <li><a href="#">신상품</a></li>
-                    <li><a href="#">온라인 스토어</a>
-                        <div class="lnb">
-                            <ul class="submenu">
-                                <li><a href="#">SWIMSUITS</a></li>
-                                <li><a href="#">ACTIVEWEAR</a></li>
-                                <li><a href="#">ACCESSORIES</a></li>
-                            </ul>
-                            <div class="menuimg"><img src="https://via.placeholder.com/200" alt="#"></div>
-                            <div class="menuimg"><img src="https://via.placeholder.com/200" alt="#"></div>
-                            <div class="menuimg"><img src="https://via.placeholder.com/200" alt="#"></div>
-                        </div>
-                    </li>
-                    <li><a href="#">커뮤니티</a>
-                        <div class="lnb">
-                            <ul class="submenu">
-                                <li><a href="#">포토리뷰</a></li>
-                                <li><a href="#">SNS</a></li>
-                            </ul>
-                        </div>
-                    </li>
+                    <li class="brand"><a href="#">브랜드</a></li>
+                    <li class="newitem"><a href="#">신상품</a></li>
+                    <li class="store"><a href="#">온라인 스토어</a></li>
+                    <li class="community"><a href="#">커뮤니티</a></li>
                 </ul>
                 <ul class="icon">
-                    <li><a href="#">마이페이지</a></li>
-                    <li><a href="#">로그인</a></li>
-                    <li><a href="#">장바구니</a></li>
-                    <li><a href="#">검색</a></li>
+                    <li><a href="#"><i class="far fa-user"></i></a></li>
+                    <li><a href="#"><i class="far fa-heart"></i></a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
                 </ul>
             </div>
+
+            <div class="lnb">
+                <div class="store_sub">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <h2>SWIMSUITS</h2>
+                                <img src="https://via.placeholder.com/450x140">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h2>SWIMSUITS</h2>
+                                <img src="https://via.placeholder.com/450x140">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <h2>SWIMSUITS</h2>
+                            <img src="https://via.placeholder.com/450x140">
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="community_sub">    
+                    <ul>
+                        <li><a href="#"><img src="https://via.placeholder.com/800x200"></a></li>
+                        <li><a href="#"><img src="https://via.placeholder.com/800x200"></a></li>
+                    </ul>
+                </div> 
+            </div>
+            
+
+            <!--햄버거메뉴아이콘 
+                <i class="fas fa-bars"></i> -->
 
             <!-- 이미지 슬라이더 -->
             <div class=".mainimg">
@@ -160,7 +178,8 @@
 
     <!-- 라이브러리 -->
     <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="library/jquery.bxslider.min.js"></script>
+    <script src="library/js/jquery.bxslider.min.js"></script>
+    <script src="library/js/attribution.js"></script>
 
     <script src="js/common.js"></script>
     <script src="js/main.js"></script>

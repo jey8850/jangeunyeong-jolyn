@@ -6,3 +6,23 @@ $(document).ready(function(){
         pager: false, //불릿버튼
     }); 
 });
+
+
+$(".store").hover(
+    function(){
+        $(".store_sub").css({"display":"block"});
+    },
+    function(){
+        $(".store_sub").css({"display":"none"});
+    }
+);
+
+$(".community").hover(
+    function(){
+        $(".community_sub").css({"display":"block"});
+    },
+    function(){
+        $(".community_sub").css({"display":"none"});
+    }
+);
+
