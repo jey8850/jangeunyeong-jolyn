@@ -7,7 +7,7 @@ $(document).ready(function(){
     }); 
 });
 
-
+/*
 $(".store").hover(
     function(){
         $(".store_sub").css({"display":"block"});
@@ -25,4 +25,35 @@ $(".community").hover(
         $(".community_sub").css({"display":"none"});
     }
 );
+*/
+
+$(".store").mouseenter(function(){
+    $(".community_sub").hide();
+    $(".store_sub").show();
+});
+
+$(".store_sub").mouseleave(function(){
+    $(".store_sub").hide();
+});
+
+$(".community").mouseenter(function(){
+    $(".store_sub").hide();
+    $(".community_sub").show();
+});
+
+$(".community_sub").mouseleave(function(){
+    $(".community_sub").hide();
+});
+
+$(".brand").mouseenter(function(){
+    $(".store_sub").hide();
+    $(".community_sub").hide();
+});
+
+$(".newitem").mouseenter(function(){
+    $(".store_sub").hide();
+    $(".community_sub").hide();
+});
+
+
 

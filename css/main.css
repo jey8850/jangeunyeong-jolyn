@@ -33,6 +33,13 @@
     font-size: 1.5em;
 }
 
+@media screen and (max-width:767px) {
+    .bxslider {
+        top: 10%;
+    }
+
+}
+
 
 /* 인스타 연동 */
 

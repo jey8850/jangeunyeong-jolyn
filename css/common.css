@@ -66,6 +66,12 @@ a { text-decoration: none;}
     font-size: 1.2em;
 }
 
+#main_header .mobile {
+    float: left;
+    display: none;
+}
+
+
 /* 서브메뉴 */
 
 .lnb {
@@ -95,7 +101,6 @@ a { text-decoration: none;}
     display: none;
 }
 
-
 .lnb > .store_sub > ul > li {
     float: left;
     width: 33%;
@@ -108,29 +113,37 @@ a { text-decoration: none;}
     text-align: center;
 }
 
-
-/* 메뉴 드롭다운 */
-
-/*
-#main_header .gnb_container .submenu {
-    display: none;
-}
-
-
-#main_header .menu > li:hover .submenu {
-    display: block;
-} 
-*/
-
 /* 모바일메뉴 */
 
 @media screen and (max-width:767px) {
+    #main_header .gnb {
+        text-align: center;
+        position: fixed;
+    }
+
     #main_header .gnb .menu {
         display: none;
+        float: none;
+        width: 100%;
+        height: 100vh;
+        background-color: aqua;
     }
 
     #main_header .icon {
         display: none;
+
+    }
+    #main_header .logo {
+        display: inline-block;
+        float: none;
+        padding-right: 40px;
+    }
+
+    #main_header .mobile {
+        display: inline-block;
+        font-size: 2em;
+        padding-top : 5px;
+        padding-left: 15px;
     }
 
 }
@@ -165,8 +178,6 @@ a { text-decoration: none;}
     float: right;
     margin-right: 10%;
 }
-
-
 
 
 
