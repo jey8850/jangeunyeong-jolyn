@@ -56,4 +56,28 @@ $(".newitem").mouseenter(function(){
 });
 
 
+$(".trigger").on({ 
+    "click" : function() {
+        // 햄버거 메뉴 버튼이 보일때 (햄버거 메뉴가 visible 상태인가?로 판단)
+        if ($(".hamburger").is(":visible")) {
+            /* 모바일 닫기 버튼 show */
+            $(".hamburger").hide();
+            $(".close").show();
+            $(".menu").show();
+            $(".lnb").hide();
+            $(".store").click(function(){
+                $(".mobile_store").toggle();
+            });
+            $(".community").click(function(){
+                $(".mobile_community").toggle();
+            });
 
+        } else {  // 닫기 메뉴 버튼이 보일때
+            /* 모바일 햄버거 버튼 show */
+            $(".hamburger").show();
+            $(".close").hide();
+            $(".menu").hide();
+            $(".lnb").hide();
+        }
+    }
+});
