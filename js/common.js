@@ -7,25 +7,6 @@ $(document).ready(function(){
     }); 
 });
 
-/*
-$(".store").hover(
-    function(){
-        $(".store_sub").css({"display":"block"});
-    },
-    function(){
-        $(".store_sub").css({"display":"none"});
-    }
-);
-
-$(".community").hover(
-    function(){
-        $(".community_sub").css({"display":"block"});
-    },
-    function(){
-        $(".community_sub").css({"display":"none"});
-    }
-);
-*/
 
 $(".store").mouseenter(function(){
     $(".community_sub").hide();
@@ -81,3 +62,13 @@ $(".trigger").on({
         }
     }
 });
+
+$(window).resize(function() {
+    var width = $(window).width();
+    if(width > 767) {
+        $(".mobile_store").hide();
+        $(".mobile_community").hide();
+        }
+        location.reload();
+});
+

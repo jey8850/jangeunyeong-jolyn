@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../library/css/jquery.fullpage.min.css" type="text/css">
     <link rel="stylesheet" href="../css/common.css"> 
-    <link rel="stylesheet" href="../pages/css/brand.css">
+    <link rel="stylesheet" href="../library/css/jquery.bxslider.min.css">
     <link rel="stylesheet" href="../library/css/all.min.css">
+    <link rel="stylesheet" href="../pages/css/swimsuits.css">
 </head>
 <body>
     <!-- 헤더 -->
@@ -51,6 +51,7 @@
                     <li><a href="#"><i class="fas fa-search"></i></a></li>
                 </ul>
             </div>
+
             <div class="lnb">
                 <div class="store_sub">
                     <ul>
@@ -82,16 +83,96 @@
                 </div> 
             </div>
 
+            <!-- 이미지 슬라이더 -->
+            <div class=".mainimg">
+                <ul class="bxslider"> 
+                    <li>
+                        <div>
+                        </div>
+                        <img src="https://via.placeholder.com/1920x400">
+                    </li>
+                    <li><img src="https://via.placeholder.com/1920x400"></li>
+                    <li><img src="https://via.placeholder.com/1920x400"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
     <!-- 콘텐츠 -->
     <div id="main_content">
-        <!-- 브랜드 -->
-        <div class="fullpage">
-            <div class="scction">
-                <div class="slide">슬라이드1</div>
-                <div class="slide">슬라이드1</div>
-                <div class="slide">슬라이드1</div>
-                <div class="slide">슬라이드1</div>
+        <!-- 메뉴 버튼 -->
+            <section class="button">
+                <div>top</div>
+                <div>bottoms</div>
+                <div>onesies</div>
+            </section>
+        <!-- 베스트 상품 -->
+        <section class="best">
+            <h3>best 상품</h3>
+            <div>
+                <img src="https://via.placeholder.com/200">
             </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+        </section>
+        <!-- 상품 전체보기 -->
+        <section class="all">
+            <h3>상품 전체 보기</h3>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/200">
+            </div>
+        </section>
         <!-- 푸터 -->
     <footer id="main_footer">
         <div>
@@ -136,11 +217,43 @@
             <h4>sdfdssdfsdf@dsfdfsdf.com</h4>
         </div>
     </footer>
-        <!-- 라이브러리 -->
-        <!-- <script src="../js/jquery-2.2.4.min.js"></script> -->
-        <script src="../js/jquery-3.6.0.min.js"></script>
-        <script src="../library/js/jquery.fullpage.min.js" type="text/javascript"></script>
-        <script src="../js/common.js"></script>
-        <script src="../pages/js/brand.js""></script>
+    </div>
+
+    <!-- 사이드메뉴  -->
+    <div id="side_menu">
+        <div>
+            <ul>
+                <li>상품 분류</li>
+                <li>신상품</li>
+                <li>SALE</li>
+                <li>TOP
+                    <ul>
+                        <li>픽스드백</li>
+                        <li>타이백</li>
+                    </ul>
+                </li>
+                <li>BOTTOMS
+                    <ul>
+                        <li>픽스드백</li>
+                        <li>타이백</li>
+                    </ul>
+                </li>
+                <li>ONESIES
+                    <ul>
+                        <li>픽스드백</li>
+                        <li>타이백</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <!-- 라이브러리 -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../library/js/jquery.bxslider.min.js"></script>
+    <script src="../library/js/attribution.js"></script>
+
+    <script src="../js/common.js"></script>
 </body>
 </html>

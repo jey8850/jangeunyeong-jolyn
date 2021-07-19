@@ -6,12 +6,12 @@ $(document).ready(function(){
         controls: false, // prev/next 버튼 노출 여부 
         pager: false //불릿버튼
     });
-    
+    /*
     var windowWidth = $(window).width(),
     windowHeight = $(window).height(),
     adjHeight = windowHeight;
     $('.mainimg').css({
         'width': windowHeight + 'px',
         'height': adjHeight + 'px'
-    });
+    });*/
 });

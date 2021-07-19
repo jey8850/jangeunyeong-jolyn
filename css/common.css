@@ -13,6 +13,7 @@ a { text-decoration: none;}
 
 #main_header > .gnb_container{
     position: relative;
+    overflow: hidden;
 }
 
 #main_header .gnb {
@@ -69,8 +70,8 @@ a { text-decoration: none;}
 
 #main_header .icon > li {
     float: right;
+    padding-top: 15px;
     padding-right: 40px;
-    margin-top: 15px;
     font-size: 1.2em;
 }
 
@@ -142,30 +143,55 @@ a { text-decoration: none;}
         text-align: left;
     }
 
-    #main_header .menu > li > ul {
+    #main_header .menu > .store > .mobile_store {
         margin-top: 20px;
         border-bottom: 1px solid black;
     }
 
-    #main_header .menu > li > ul > li {
+    #main_header .menu > .store > .mobile_store > li {
+        float: none;
+        padding: 10px;
+        border-top: 1px solid black;
+    }
+
+    #main_header .menu > .community > .mobile_community {
+        margin-top: 20px;
+        border-bottom: 1px solid black;
+    }
+
+    #main_header .menu > .community > .mobile_community > li {
         float: none;
         padding: 10px;
         border-top: 1px solid black;
     }
 
     #main_header .icon {
-        display: none;
+        display: inline-block;
+        float: right;
+    }
+
+    #main_header .icon > li {
+        padding-top: 10px;
+        padding-right: 20px;
+        font-size: 1.7em;
 
     }
+
+    #main_header .icon > li:nth-child(2) {
+        display: none;
+    }
     
+    #main_header .icon > li:nth-child(3) {
+        display: none;
+    }
+
     #main_header .logo {
         display: inline-block;
         float: none;
-        padding-right: 40px;
+        margin-left: 25px;
     }
 
-/* PC */
-
+    
 
     /* 모바일 메뉴 */
 
@@ -200,8 +226,6 @@ a { text-decoration: none;}
     overflow: hidden;
     text-align: center; 
 }
-
-/* #main_content .event {} */
 
 /* 푸터 */
 

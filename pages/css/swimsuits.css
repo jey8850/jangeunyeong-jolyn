@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* 초기화 */
+*{ margin: 0; padding: 0;}
+ul,li { list-style: none;}
+a { text-decoration: none;}
+
+/* 헤더 */
+
+/* 이미지 슬라이더 */
+.bxslider {
+    top: 12%;
+    min-width: 100%;
+}
+
+/* 콘텐츠 */
+
+#main_content {
+    width: 80%;
+    float:right;
+    position: relative;
+}
+
+/* 메뉴 버튼 */
+
+#main_content > .button {
+    overflow: hidden;
+    width: 80%;
+}
+
+#main_content > .button > div {
+    float: left;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+/* 베스트 상품 */
+
+#main_content .best {
+    overflow: hidden;
+}
+
+#main_content .best > h3 {
+    text-align: left;
+    margin-left: 40px;
+}
+
+#main_content .best > div {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* 상품 전체보기 */
+
+#main_content .all {
+    overflow: hidden;
+}
+
+#main_content .all > h3 {
+    text-align: left;
+    margin-left: 40px;
+}
+
+#main_content .all > div {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* 사이드 */
+
+#side_menu {
+    width: 20%;
+    float: left;
+}
