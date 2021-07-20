@@ -16,8 +16,7 @@ a { text-decoration: none;}
 /* 콘텐츠 */
 
 #main_content {
-    width: 80%;
-    float:right;
+    width: 100%;
     position: relative;
 }
 
@@ -34,7 +33,6 @@ a { text-decoration: none;}
 #main_content .button > div {
     float: left;
     width: 33%;
-    height: 150px;
     border: 1px solid black;
     text-align: center;
     padding-top: 30px;
@@ -106,39 +104,6 @@ a { text-decoration: none;}
     padding: 10px;
     border: 1px solid black;
     box-sizing: border-box;
-}
-
-
-/* 사이드 */
-
-#side_menu {
-    width: 20%;
-    float: left;
-    padding-left: 30px;
-    box-sizing: border-box;
-}
-
-#side_menu > div {
-    width: 80%;
-    border: 1px solid black;
-}
-
-#side_menu > div > ul > li {
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-bottom: 15px;
-    border-bottom: black 1px solid;
-    font-weight: bold;
-}
-
-#side_menu > div > ul > li > ul > li {
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-
-#side_menu > div > ul > li > ul > li{
-    font-weight: normal;
 }
 
 

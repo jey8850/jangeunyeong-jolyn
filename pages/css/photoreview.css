@@ -5,75 +5,27 @@
 ul,li { list-style: none;}
 a { text-decoration: none;}
 
-/* 헤더 */
 
-/* 이미지 슬라이더 */
-.bxslider {
-    top: 12%;
-    min-width: 100%;
+/* 베스트 포토리뷰 */
+
+.bestpthto {
+    width: 100%;
+    height: 400px;
+}
+
+.bestpthto > .review > h1 {
+}
+
+.bestpthto > .review > div {
+    display: inline-block;
+
 }
 
 /* 콘텐츠 */
 
 #main_content {
     width: 80%;
-    float:right;
-    position: relative;
-}
-
-/* 메뉴 버튼 */
-
-#main_content .button {
-    overflow: hidden;
-    padding-bottom: 50px;
-    padding-top: 1%;
-    padding-left: 1%;
-
-}
-
-#main_content .button > div {
-    float: left;
-    width: 33%;
-    height: 150px;
-    border: 1px solid black;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    box-sizing: border-box;
-
-}
-
-/*
-#main_contetn > .button > div:nth-child(1) {
-}
-
-#main_contetn > .button > div:nth-child(2) {
-
-}
-
-#main_contetn > .button > div:nth-child(3) {
-
-}
-
-*/
-
-/* 베스트 상품 */
-
-#main_content .best {
-    overflow: hidden;
-}
-
-#main_content .best > h3 {
-    text-align: left;
-    margin-left: 40px;
-}
-
-#main_content .best > div {
-    float: left;
-    width: 25%;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    float: right;
 }
 
 /* 상품 전체보기 */

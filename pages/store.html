@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/common.css"> 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="library/css/jquery.bxslider.min.css">
-    <link rel="stylesheet" href="library/css/all.min.css">
+    <link rel="stylesheet" href="../css/common.css"> 
+    <link rel="stylesheet" href="../library/css/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="../library/css/all.min.css">
+    <link rel="stylesheet" href="../pages/css/store.css">
 </head>
 <body>
     <!-- 헤더 -->
@@ -88,22 +88,23 @@
                 <ul class="bxslider"> 
                     <li>
                         <div>
-                            <h1>Lorem, ipsum dolor sit !! </h1>
-                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>
-                            Esse nemo itaque quibusdam officiis fugiat.<br/>
-                            qui sapiente nobis quaerat..<br/>
-                            repellat in, perferendis vero quis iusto ullam<br/>quibusdam quidem veniam sapiente tempora nulla sunt neque?</h4>
                         </div>
-                        <img src="https://via.placeholder.com/1920x1080">
+                        <img src="https://via.placeholder.com/1920x400">
                     </li>
-                    <li><img src="https://via.placeholder.com/1920x1080"></li>
-                    <li><img src="https://via.placeholder.com/1920x1080"></li>
+                    <li><img src="https://via.placeholder.com/1920x400"></li>
+                    <li><img src="https://via.placeholder.com/1920x400"></li>
                 </ul>
             </div>
         </div>
     </header>
     <!-- 콘텐츠 -->
     <div id="main_content">
+        <!-- 메뉴 버튼 -->
+            <section class="button">
+                <div>top</div>
+                <div>bottoms</div>
+                <div>onesies</div>
+            </section>
         <!-- 베스트 상품 -->
         <section class="best">
             <h3>best 상품</h3>
@@ -119,32 +120,65 @@
             <div>
                 <img src="https://via.placeholder.com/200">
             </div>
-            <div>
-                <img src="https://via.placeholder.com/200">
+        </section>
+        <!-- 상품 전체보기 -->
+        <section class="all">
+            <h3>상품 전체 보기</h3>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="product">
+                <a href="#"><img src="https://via.placeholder.com/200"></a>
+            </div>
+            <div class="morewrap">
+                <div class="more">
+                    <a href="#"><h4>더보기</h4></a>
+                </div>
             </div>
         </section>
-        <!-- 회원가입 혜택 안내 -->
-        <section class="event">
-            <div>
-                <img src="https://via.placeholder.com/960x500">
-            </div>
-            <div>
-                <img src="https://via.placeholder.com/960x500">
-            </div>
-            <div>
-                <img src="https://via.placeholder.com/960x500">
-            </div>
-            <div>
-                <img src="https://via.placeholder.com/960x500">
-            </div>
-        </section>
-        <!-- 인스타그램 피드 -->
-        <section class="insta">
-            <div>인스타</div>
-        </section>
-    </div>
-
-    <!-- 푸터 -->
+        <!-- 푸터 -->
     <footer id="main_footer">
         <div>
             <h2>하단메뉴1</h2>
@@ -156,7 +190,7 @@
             </ul>
         </div>
         <div>
-            <h2>하단메뉴2/h2>
+            <h2>하단메뉴2</h2>
             <ul>
                 <li><a href="#">하단메뉴</a></li>
                 <li><a href="#">하단메뉴</a></li>
@@ -188,13 +222,12 @@
             <h4>sdfdssdfsdf@dsfdfsdf.com</h4>
         </div>
     </footer>
+    </div>
 
     <!-- 라이브러리 -->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="library/js/jquery.bxslider.min.js"></script>
-    <script src="library/js/attribution.js"></script>
-
-    <script src="js/common.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../library/js/jquery.bxslider.min.js"></script>
+    <script src="../library/js/attribution.js"></script>
+    <script src="../js/common.js"></script>
 </body>
 </html>

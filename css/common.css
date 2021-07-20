@@ -122,6 +122,35 @@ a { text-decoration: none;}
     text-align: center;
 }
 
+/* 컨텐츠 */
+
+#main_content {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center; 
+}
+
+/* 푸터 */
+
+#main_footer {
+    height: 200px;
+}
+
+#main_footer > div {
+    float: left;
+    margin-left: 50px;
+}
+
+#main_footer > div:first-child {
+    margin-left: 10%;
+}
+
+#main_footer > div:last-child {
+    float: right;
+    margin-right: 10%;
+}
+
 /* 모바일 */
 
 @media screen and (max-width:767px) {
@@ -166,7 +195,6 @@ a { text-decoration: none;}
     }
 
     #main_header .icon {
-        display: inline-block;
         float: right;
     }
 
@@ -188,10 +216,8 @@ a { text-decoration: none;}
     #main_header .logo {
         display: inline-block;
         float: none;
-        margin-left: 25px;
+        margin-left: 42px;
     }
-
-    
 
     /* 모바일 메뉴 */
 
@@ -215,41 +241,34 @@ a { text-decoration: none;}
         display: none;
     }
 
+    /* 모바일 푸터 */
+
+    #main_footer {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    #main_footer > div {
+        width: 50%;
+        display: inline-block;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    #main_footer > div:first-child {
+        margin: 0 auto;
+    }
     
+    #main_footer > div:last-child {
+        width: 100%;
+        float: left;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 18%;
+        background-color: gray;
+    }
 }
-
-/* 컨텐츠 */
-
-#main_content {
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center; 
-}
-
-/* 푸터 */
-
-#main_footer {
-    height: 200px;
-}
-
-#main_footer > div {
-    float: left;
-    margin-left: 50px;
-}
-
-#main_footer > div:first-child {
-    margin-left: 10%;
-}
-
-#main_footer > div:last-child {
-    float: right;
-    margin-right: 10%;
-}
-
-
-
-
 
 
 
