@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+/* 헤더 */
+
+
+
 /* 이미지 슬라이더 */
 
 .bxslider {
@@ -37,6 +41,7 @@
         top: 10%;
     }
 
+    
 }
 
 
@@ -65,3 +70,4 @@
     padding-top: 20px;
     padding-bottom: 50px;
 }
+

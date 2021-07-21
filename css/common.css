@@ -12,17 +12,16 @@ a { text-decoration: none;}
 }
 
 #main_header > .gnb_container{
-    position: relative;
     overflow: hidden;
 }
 
 #main_header .gnb {
     width: 100%;
     overflow: hidden;
-    position: absolute;
     margin: 0 auto;
     z-index: 1;
-    background-color: darkgray;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 #main_header .logo {
@@ -120,6 +119,12 @@ a { text-decoration: none;}
     float: left;
     width: 50%;
     text-align: center;
+}
+
+/* 이미지 슬라이더 */
+.bxslider {
+    min-width: 100%;
+    position: absolute;
 }
 
 /* 컨텐츠 */
