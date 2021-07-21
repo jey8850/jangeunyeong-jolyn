@@ -21,7 +21,6 @@
     margin: 0 auto;
 }
 
-
 .bxslider > li > div > h1 {
     position: absolute;
     top: 10%;
@@ -36,27 +35,29 @@
     font-size: 1.5em;
 }
 
-@media screen and (max-width:767px) {
-    .bxslider {
-        top: 10%;
-    }
+/* 콘텐츠 */
 
-    
+#main_content {
+    position: relative;
+    width: 100%;
 }
-
 
 /* 인스타 연동 */
 
 .insta {
     height: 200px;
-
 }
 
 /* 베스트 상품 */
 
 #main_content .best {
+    width: 100%;
     overflow: hidden;
+    /* position: absolute; */
+    /* left:50%; */
+    /* transform: translate(-50%); */
 }
+
 
 #main_content .best > h3 {
     text-align: left;
@@ -65,9 +66,24 @@
 
 #main_content .best > div {
     float: left;
-    width: 20%;
+    width: 25%;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
 }
 
+@media screen and (max-width:767px) {
+    
+    .bxslider {
+        display: none;
+    }
+
+    #main_content {
+        width: 100%;
+    }
+
+    #main_content .best > div {
+        width: 50%;
+    }
+
+}    

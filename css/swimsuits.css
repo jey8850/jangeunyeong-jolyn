@@ -7,9 +7,11 @@ a { text-decoration: none;}
 
 /* 헤더 */
 
-/* 리뷰이미지 */
-.bestreview{
-    
+/* 이미지 슬라이더 */
+.bxslider {
+    top: 61px;
+    min-width: 100%;
+    position: absolute;
 }
 
 /* 콘텐츠 */
