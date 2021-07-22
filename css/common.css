@@ -151,6 +151,12 @@ a { text-decoration: none;}
     margin-left: 10%;
 }
 
+#main_footer > div:nth-child(4) > ul > li {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 #main_footer > div:last-child {
     float: right;
     margin-right: 10%;
