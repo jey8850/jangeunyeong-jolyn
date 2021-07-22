@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* 초기화 */
+*{ margin: 0; padding: 0;}
+ul,li { list-style: none;}
+a { text-decoration: none;}
+
+/* 컨텐츠 */
+.slide:nth-child(1) {
+    width: 100vw;
+    height: 100vh;
+    background-color: #7DBCD4;
+}
+.slide:nth-child(2) {
+    width: 100vw;
+    height: 100vh;
+    background-color: #5DCD26;
+}
+.slide:nth-child(3) {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1EBF61;
+}
+.slide:nth-child(4) {
+    width: 100vw;
+    height: 100vh;
+    background-color: #7DBCD4;
+}
+

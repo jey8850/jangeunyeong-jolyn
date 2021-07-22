@@ -3,7 +3,9 @@
 /* 초기화 */
 *{ margin: 0; padding: 0;}
 ul,li { list-style: none;}
-a { text-decoration: none;}
+a { text-decoration: none;
+    color: black; }
+
 
 /* 헤더 */
 
@@ -21,7 +23,7 @@ a { text-decoration: none;}
     margin: 0 auto;
     z-index: 1;
     position: absolute;
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255,0.8);
 }
 
 #main_header .logo {
@@ -34,12 +36,19 @@ a { text-decoration: none;}
 #main_header .menu {
     float: left;
     overflow: hidden;
+    padding-left: 20px;
 }
 
 
 #main_header .menu > li {
     float: left;
     padding : 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#main_header .menu li:hover > a {
+    color: orange;
+    
 }
 
 #main_header .menu > li > .mobile_store {
@@ -139,22 +148,25 @@ a { text-decoration: none;}
 /* 푸터 */
 
 #main_footer {
+    margin-top: 50px;
     height: 200px;
+    background-color: rgb(255, 166, 0);
 }
 
 #main_footer > div {
     float: left;
     margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+#main_footer > div > h2 {
+    margin-bottom: 10px;
+    color: crimson;
 }
 
 #main_footer > div:first-child {
     margin-left: 10%;
-}
-
-#main_footer > div:nth-child(4) > ul > li {
-    float: left;
-    margin-top: 10px;
-    margin-left: 10px;
 }
 
 #main_footer > div:last-child {
@@ -162,12 +174,53 @@ a { text-decoration: none;}
     margin-right: 10%;
 }
 
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+    #main_header .icon > li {
+        padding-right: 20px;
+    }
+
+
+
+    /* 타블렛 푸터 */
+    #main_footer {
+        width: 100%;
+        height: auto;
+        float: none;
+        text-align: center;
+    }
+
+    #main_footer > div {
+        width: 50%;
+        display: inline-block;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    #main_footer > div:first-child {
+        margin: 0 auto;
+    }
+    
+    #main_footer > div:last-child {
+        width: 100%;
+        float: left;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 18%;
+        background-color: rgb(255, 166, 0);
+        color: white;
+    }
+}
+
+
 /* 모바일 */
 
 @media screen and (max-width:767px) {
     #main_header .gnb {
         text-align: center;
         position: fixed;
+        background-color: white;
     }
 
     #main_header .gnb .menu {
@@ -258,6 +311,7 @@ a { text-decoration: none;}
         width: 100%;
         height: auto;
         float: none;
+        text-align: center;
     }
 
     #main_footer > div {
@@ -277,7 +331,8 @@ a { text-decoration: none;}
         text-align: left;
         padding-top: 20px;
         padding-left: 18%;
-        background-color: darkgray;
+        background-color: rgb(255, 166, 0);
+        color: white;
     }
 }
 
