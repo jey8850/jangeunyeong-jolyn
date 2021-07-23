@@ -37,6 +37,8 @@
     color: white;
 }
 
+/* 모바일 이미지 */
+
 .mobileimg {
     display: none;
     position: relative;
@@ -51,33 +53,35 @@
     color: white;
 }
 
+.mobileimg > img {
+    height: 100vh;
+}
+
 .mobileimg > div > h1:last-child {
     font-size: 3em;
     text-decoration: underline;
-    background-color: rgb(255, 243, 74);
+    background-color: rgb(255,166,0);
 }
 
 /* 콘텐츠 */
 
 #main_content {
-    position: relative;
     width: 100%;
 }
 
 /* 인스타 연동 */
-
+/* 
 .insta {
     height: 200px;
-}
+} */
 
 /* 베스트 상품 */
 
 #main_content .best {
-    width: 100%;
+    width: 80%;
     overflow: hidden;
-    /* position: absolute; */
-    /* left:50%; */
-    /* transform: translate(-50%); */
+    margin: 0 auto;
+    text-align: center;
 }
 
 #main_content .best > h3 {
@@ -85,19 +89,30 @@
     margin-left: 40px;
 }
 
-#main_content .best > div {
-    float: left;
+#main_content .best > .bestwrap {
+    font-size: 0;
+}
+
+#main_content .best > .bestwrap div {
+    display: inline-block;
     width: 25%;
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
 }
 
+/* #main_content .best > div img{
+
+} */
+
+
+
 /* 회원가입 혜택 안내 */
+
 
 #main_content > .event > .eventimg1 {
     background-color: #00a9c6;
     line-height: 0px;
+
 }
 
 #main_content > .event > .eventimg2 {
@@ -145,7 +160,7 @@
         width: 100%;
     }
 
-    #main_content .best > div {
+    #main_content .best > .bestwrap div {
         width: 50%;
     }
 
@@ -156,6 +171,21 @@
     #main_content > .event > .message1 {
         height: 680px;
     }
+
+    #main_content > .event > .eventimg4 > img {
+        display: none;
+    }
+
+    #main_content > .event > .eventimg4 {
+        background-image: url("../img/logo.gif");
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
 }
 
 @media screen and (max-width:767px) {
@@ -176,7 +206,7 @@
         width: 100%;
     }
 
-    #main_content .best > div {
+    #main_content .best > .bestwrap div {
         width: 100%;
     }
 
@@ -184,4 +214,42 @@
         height: 900px;
     }
 
+    #main_content > .event > .eventimg2 > img {
+        display: none;
+    }
+
+    #main_content > .event > .eventimg3 > img {
+        display: none;
+    }
+
+    #main_content > .event > .eventimg4 > img {
+        display: none;
+    }
+
+    #main_content > .event > .eventimg2 {
+        background-image: url("../img/9.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #main_content > .event > .eventimg3 {
+        background-image: url("../img/8.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #main_content > .event > .eventimg4 {
+        background-image: url("../img/logo.gif");
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    
 }    
