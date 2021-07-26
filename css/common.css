@@ -48,7 +48,6 @@ a { text-decoration: none;
 
 #main_header .menu li:hover > a {
     color: orange;
-    
 }
 
 #main_header .menu > li > .mobile_store {
@@ -127,8 +126,35 @@ a { text-decoration: none;
 
 .lnb > .community_sub > ul > li {
     float: left;
-    width: 50%;
-    text-align: center;
+    overflow: hidden;
+}
+
+.lnb > .store_sub li:hover a {
+    color: orange;
+}
+
+.lnb > .community_sub > ul > li:first-child {
+    width: 25%;
+}
+
+.lnb > .community_sub > ul > li:last-child {
+    width: 75%;
+    float: right;
+}
+
+.lnb > .community_sub > ul > li > ul > li {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-left: rgb(255, 166, 0) 3px solid;
+}
+
+.lnb > .community_sub > ul > li > ul > li h3{
+    margin-left: 10px;
+}
+
+.lnb > .community_sub ul> li li:hover a {
+    color: orange;
 }
 
 /* 이미지 슬라이더 */
@@ -182,7 +208,9 @@ a { text-decoration: none;
         padding-right: 20px;
     }
 
-
+    .lnb > .community_sub > ul > li:last-child {
+        display: none;
+    }
 
     /* 타블렛 푸터 */
     #main_footer {
