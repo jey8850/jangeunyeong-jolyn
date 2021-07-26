@@ -41,18 +41,24 @@ a { text-decoration: none;}
     padding-top: 30px;
     padding-bottom: 30px;
     box-sizing: border-box;
-
 }
 
-/*
-#main_contetn > .button > div:nth-child(1) {
+
+#main_content > .button > div:nth-child(1) {
+    background-image: url("../img/27.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-#main_contetn > .button > div:nth-child(2) {
-
+#main_content > .button > div:nth-child(2) {
+    background-image: url("../img/37.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-#main_contetn > .button > div:nth-child(3) {
+#main_content > .button > div:nth-child(3) {
 
 }
 
