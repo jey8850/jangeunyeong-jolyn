@@ -201,6 +201,9 @@ a { text-decoration: none;
     margin-right: 10%;
 }
 
+#main_footer > div > ul > li {
+    margin-left: 5px;
+}
 
 @media screen and (min-width:768px) and (max-width: 1023px) {
 

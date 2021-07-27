@@ -13,14 +13,58 @@ a { text-decoration: none;}
 }
 
 /* 콘텐츠 */
-
 #main_content {
+    overflow: hidden;
     width: 80%;
     float: right;
 }
 
-/* 상품 전체보기 */
+#main_content .reviewwrap {
+    overflow: hidden;
+}
 
+#main_content .reviewwrap .review{
+    overflow: hidden;
+    font-size: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#main_content .reviewwrap > h3 {
+    text-align: left;
+    margin-left: 40px;
+}
+
+#main_content .reviewwrap .review > div {
+    display: inline-block;
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#main_content .reviewwrap .review > div img {
+    max-width: 100%;
+    height: auto;
+}
+
+#main_content .reviewwrap > .morewrap {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+#main_content .reviewwrap > .morewrap > .more {
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+/* 
 #main_content .all {
     overflow: hidden;
     text-align: center;
@@ -49,7 +93,7 @@ a { text-decoration: none;}
     padding: 10px;
     border: 1px solid black;
     box-sizing: border-box;
-}
+} */
 
 
 /* 사이드 */
