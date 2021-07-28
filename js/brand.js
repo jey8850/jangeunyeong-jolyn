@@ -4,8 +4,8 @@ $(document).ready(function() {
         lockAnchors:false,
         anchors:['first','second','third','fourth'],
         navigation:true,
-        navigationTooltips:['섹션이름1','섹션이름2','섹션이름3','섹션이름4'],
+        navigationTooltips:['JOLYN','사회적가치','최상의품질','CONTACT US'],
         showActiveTooltip:true,
-        sectionsColor:['#ffcccc','#ffffcc','#ffeecc','#ffeeaa'],//섹션배경색
+        sectionsColor:['#ffcccc','#ffffcc','#ffeecc','#ffb73a'],//섹션배경색
     });
 });
