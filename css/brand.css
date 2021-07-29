@@ -80,11 +80,74 @@ a { text-decoration: none;}
 
 #fullpage > #section4 div label{
     float: left;
+    width: 100px;
 }
 
 #fullpage > #section4 #msg {
     height: 100px;
-    width: 171px;
-    margin-left: -20px;
+    width: 200px;
 }
 
+#fullpage > #section4 #name {
+    width: 200px;
+}
+
+
+#fullpage > #section4 #email {
+    width: 200px;
+}
+
+
+#fullpage > #section4 #submit {
+    width: 100px;
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    #fullpage > #section4 form {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #fullpage > #section4 div label{
+        float: left;
+        width: 1%;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    
+    #fullpage > #section1 h1{
+        font-size: 3em;
+    }
+
+    #fullpage > #section2 h1{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    #fullpage > #section2 h4{
+        font-size: 1em;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #fullpage > #section3 > div {
+        width: 100%
+    }
+    
+
+    #fullpage > #section4 form{
+        width: 100%;
+        padding-right: 15%;
+        margin-left: -15%;
+    }
+
+    #fullpage > #section4 div label{
+        float: left;
+        width: 1%;
+    }
+}
