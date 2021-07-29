@@ -122,9 +122,27 @@
             </div>
             <div id="section4" class="section fourth">
                 <div class="slide">
-                    <div>
-                        <h1>CONTACT US</h1>
-                    </div>
+                    <form method="POST">
+                        <div>
+                            <img src="../img/logo.png">
+                            <h1>CONTACT US</h1>
+                        </div>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="Enter your name"/>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="Enter your email">
+                        </div>
+                        <div>
+                            <label for="msg">Message</label>
+                            <textarea id="msg" placeholder="내용을 입력하세요"></textarea>
+                        </div>
+                        <div>
+                            <input type="button" name="submit" value="보내기">
+                        </div>
+                    </form>
                 </div>
             </div>
         <!-- 푸터 -->
