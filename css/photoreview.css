@@ -40,22 +40,22 @@ a { text-decoration: none;}
 #main_content .reviewwrap .review{
     overflow: hidden;
     font-size: 0;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
 }
 
 #main_content .reviewwrap > h3 {
     text-align: left;
     margin-left: 40px;
+    margin-bottom: 30px;
 }
 
 #main_content .reviewwrap .review > div {
     display: inline-block;
-    width: 25%;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    width: 23%;
+    margin: 1%;
 }
 
 #main_content .reviewwrap .review > div img {
@@ -71,8 +71,8 @@ a { text-decoration: none;}
 
 
 #main_content .reviewwrap > .morewrap > .more {
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     padding: 10px;
     border: 1px solid black;
     box-sizing: border-box;
@@ -85,6 +85,17 @@ a { text-decoration: none;}
     float: left;
     padding-left: 30px;
     box-sizing: border-box;
+}
+
+#side_menu h1 {
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+#side_menu h3 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 5px;
 }
 
 #side_menu > div {
@@ -110,6 +121,29 @@ a { text-decoration: none;}
     font-weight: normal;
 }
 
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+    #side_menu {
+        display: none;
+    }
+
+    #main_content {
+        width: 100%;
+    }
+
+    #main_content .best > .bestwrap div {
+        width: 50%;
+    }
+
+    #main_content .reviewwrap > .review div {
+        width: 50%;
+    }
+
+    .bxslider > li > div > h1 {
+        top: 20%;
+    }
+
+}
 
 @media screen and (max-width:767px) {
     
@@ -125,6 +159,11 @@ a { text-decoration: none;}
         width: 100%;
     }
 
-    
-    
+    #main_content .best > .bestwrap div {
+        width: 100%;
+    }
+
+    #main_content .reviewwrap > .review div {
+        width: 100%;
+    }
 }    

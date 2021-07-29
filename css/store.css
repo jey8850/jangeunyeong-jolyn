@@ -78,9 +78,9 @@ a { text-decoration: none;}
 #main_content .best .bestwrap{
     overflow: hidden;
     font-size: 0;
-    width: 80%;
+    width: 85%;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
     text-align: center;
 }
 
@@ -91,7 +91,8 @@ a { text-decoration: none;}
 
 #main_content .best .bestwrap > div {
     display: inline-block;
-    width: 25%;
+    width: 23%;
+    margin: 1%;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -124,7 +125,8 @@ a { text-decoration: none;}
 
 #main_content .newproduct .newwrap > div {
     display: inline-block;
-    width: 25%;
+    width: 23%;
+    margin: 1%;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -151,13 +153,14 @@ a { text-decoration: none;}
 #main_content .reviewwrap > h3 {
     text-align: left;
     margin-left: 40px;
+    padding-bottom: 50px;
 }
 
 #main_content .reviewwrap .review > div {
     display: inline-block;
-    width: 25%;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    width: 23%;
+    box-sizing: border-box;
+    margin: 1%;
 }
 
 #main_content .reviewwrap .review > div img {
@@ -181,6 +184,27 @@ a { text-decoration: none;}
 }
 
 
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+    #side_menu {
+        display: none;
+    }
+
+    #main_content {
+        width: 100%;
+    }
+
+    #main_content .best > .bestwrap div {
+        width: 50%;
+    }
+
+
+    #main_content .newproduct > .newwrap div {
+        width: 50%;
+    }
+
+}
+
 @media screen and (max-width:767px) {
     
     .bxslider {
@@ -195,15 +219,19 @@ a { text-decoration: none;}
         width: 100%;
     }
 
-    #main_content .best > div {
-        width: 50%;
+    #main_content .button > div {
+        width: 100%;
     }
 
-    #main_content .newproduct > div {
-        width: 50%;
+    #main_content .best > .bestwrap div {
+        width: 100%;
     }
 
-    #main_content .mainreview > div {
+    #main_content .newproduct > .newwrap div {
+        width: 100%;
+    }
+
+    #main_content .reviewwrap > .review div {
         width: 50%;
     }
 

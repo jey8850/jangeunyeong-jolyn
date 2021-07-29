@@ -92,9 +92,11 @@ a { text-decoration: none;}
 
 #main_content .best .bestwrap > div {
     display: inline-block;
-    width: 25%;
+    width: 23%;
+    margin: 1%;
     padding-top: 20px;
     padding-bottom: 10px;
+    overflow: hidden;
 }
 
 #main_content .best .bestwrap > div img {
@@ -126,7 +128,8 @@ a { text-decoration: none;}
 
 #main_content .all .allwrap > div {
     float: left;
-    width: 25%;
+    width: 23%;
+    margin: 1%;
     padding-top: 20px;
     overflow: hidden;
 }
@@ -162,9 +165,14 @@ a { text-decoration: none;}
     box-sizing: border-box;
 }
 
+#side_menu h1 {
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
 #side_menu h3 {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-left: 5px;
 }
 
@@ -205,6 +213,7 @@ a { text-decoration: none;}
     #main_content .best > .bestwrap div {
         width: 50%;
     }
+
 
     #main_content .all > .allwrap div {
         width: 50%;

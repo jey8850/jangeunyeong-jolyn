@@ -37,6 +37,15 @@
     color: white;
 }
 
+.bxslider > li > div > h3 {
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    font-size: 2em;
+    color: white;
+
+}
+
 /* 모바일 이미지 */
 
 .mobileimg {
@@ -105,11 +114,6 @@
     height: auto;
 }
 
-/* #main_content .best > div img{
-
-} */
-
-
 
 /* 회원가입 혜택 안내 */
 
@@ -159,6 +163,45 @@
 }
 
 
+.event > .formwrap form {
+    /* background-image: url("../img/3.jpg"); */
+    padding: 50px;
+    margin-top: 5%;
+    margin-left: 30%; 
+    margin-right: 30%;
+    background-color: rgba(255, 255, 255);
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.event > .formwrap div {
+    padding: 20px;
+}
+
+.event > .formwrap div label{
+    float: left;
+    width: 100px;
+}
+
+.event > .formwrap #password {
+    width: 200px;
+}
+
+.event > .formwrap #name {
+    width: 200px;
+}
+
+
+.event > .formwrap #email {
+    width: 200px;
+}
+
+
+.event > .formwrap #submit {
+    width: 100px;
+}
+
+
 @media screen and (min-width:768px) and (max-width: 1023px) {
 
     #main_content {
@@ -190,6 +233,10 @@
         background-position: center;
     }
 
+    .event > .formwrap form {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 
 }
 
@@ -239,13 +286,13 @@
         background-position: center;
     }
 
-    #main_content > .event > .eventimg3 {
+    /* #main_content > .event > .eventimg3 {
         background-image: url("../img/8.jpg");
         width: 100%;
         height: 100vh;
         background-repeat: no-repeat;
         background-position: center;
-    }
+    } */
 
     #main_content > .event > .eventimg4 {
         background-image: url("../img/logo.gif");
@@ -256,5 +303,19 @@
         background-position: center;
     }
 
+    .event > .formwrap form > div > img {
+        display: none;
+    }
+
+    .event > .formwrap form {
+        width: 100%;
+        margin: auto 0;
+        padding: auto 0;
+        border: none;
+    }
     
+    .event > .formwrap div label{
+        float: left;
+        width: 1%;
+    }
 }    
