@@ -100,28 +100,48 @@ a { text-decoration: none;}
 
 #side_menu > div {
     width: 80%;
-    border: 1px solid black;
+    border: 1px solid rgb(180, 180, 180);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #side_menu > div > ul > li {
     padding-top: 15px;
     padding-left: 20px;
-    padding-bottom: 15px;
-    border-bottom: black 1px solid;
     font-weight: bold;
 }
 
+#side_menu > div > ul > li::after {
+    content: "";
+    display: block;
+    width: 85%;
+    border-bottom: rgb(180, 180, 180) 1px solid;
+    padding-bottom: 15px;
+}
+
+#side_menu > div > ul > li:last-child::after {
+    border-bottom: none;
+}
+
+
 #side_menu > div > ul > li > ul > li {
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-bottom: 10px;
-}
-
-#side_menu > div > ul > li > ul > li{
     font-weight: normal;
+    font-size: 0.9em;
 }
 
+.updown i:last-child {
+    display: none;
+}
 
+.updown {
+    float: right;
+    padding-right: 20%;
+}
 
 @media screen and (min-width:768px) and (max-width: 1023px) {
 

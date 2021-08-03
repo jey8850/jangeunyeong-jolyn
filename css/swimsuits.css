@@ -133,6 +133,7 @@ a { text-decoration: none;}
     padding-top: 20px;
     padding-bottom: 10px;
     overflow: hidden;
+    position: relative;
 }
 
 #main_content .all .allwrap > div img {
@@ -140,6 +141,25 @@ a { text-decoration: none;}
     height: auto;
 }
 
+#main_content .all .allwrap > div .price {
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 5px;
+}
+
+#main_content .all .allwrap > div img:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+#main_content .all .allwrap > div img:hover + .price {
+    opacity: 0.5;
+}
 
 #main_content .all > .morewrap {
     width: 100%;
