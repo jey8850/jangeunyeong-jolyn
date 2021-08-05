@@ -78,8 +78,8 @@ a { text-decoration: none;}
 #main_content .best .bestwrap{
     overflow: hidden;
     font-size: 0;
-    width: 85%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     margin-right: 5%;
     text-align: center;
 }
@@ -95,6 +95,43 @@ a { text-decoration: none;}
     margin: 1%;
     padding-top: 20px;
     padding-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border:  rgb(180, 180, 180) 1px solid;
+    box-sizing: border-box;
+}
+
+#main_content .best .bestwrap > div .price {
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+}
+
+.hovermsg {
+    font-size: 17px;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1.5px solid white;
+    background-color: rgba(255, 255, 255 , 0.5);
+    display: none;
+}
+
+#main_content .best .bestwrap > div .price h4:nth-child(1) {
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+#main_content .best .bestwrap > div .price h4:nth-child(2) {
+    float: right;
+    margin-right: 10%;
+    overflow: hidden;
 }
 
 #main_content .best .bestwrap > div img {
@@ -102,6 +139,13 @@ a { text-decoration: none;}
     height: auto;
 }
 
+#main_content .best .bestwrap > div img:hover {
+    opacity: 0.7;
+}
+
+#main_content .best .bestwrap > div img:hover + .hovermsg{
+    display: block;
+}
 
 /* 신상품 */
 
@@ -112,9 +156,9 @@ a { text-decoration: none;}
 #main_content .newproduct .newwrap{
     overflow: hidden;
     font-size: 0;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
 }
 
@@ -129,11 +173,56 @@ a { text-decoration: none;}
     margin: 1%;
     padding-top: 20px;
     padding-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border:  rgb(180, 180, 180) 1px solid;
+    box-sizing: border-box;
+}
+
+#main_content .newproduct .newwrap > div .price {
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+}
+
+.hovermsg {
+    font-size: 17px;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1.5px solid white;
+    background-color: rgba(255, 255, 255 , 0.5);
+    display: none;
+}
+
+#main_content .newproduct .newwrap > div .price h4:nth-child(1) {
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+#main_content .newproduct .newwrap > div .price h4:nth-child(2) {
+    float: right;
+    margin-right: 10%;
+    overflow: hidden;
 }
 
 #main_content .newproduct .newwrap > div img {
     max-width: 100%;
     height: auto;
+}
+
+#main_content .newproduct .newwrap > div img:hover {
+    opacity: 0.7;
+}
+
+#main_content .newproduct .newwrap > div img:hover + .hovermsg{
+    display: block;
 }
 /* 포토리뷰 */
 
