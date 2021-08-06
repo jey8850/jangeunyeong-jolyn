@@ -78,35 +78,71 @@
     width: 100%;
 }
 
-/* 인스타 연동 */
-/* 
-.insta {
-    height: 200px;
-} */
-
 /* 베스트 상품 */
 
 #main_content .best {
-    width: 80%;
     overflow: hidden;
-    margin: 0 auto;
+}
+
+#main_content .best .bestwrap{
+    overflow: hidden;
+    font-size: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
 }
 
 #main_content .best > h3 {
     text-align: left;
-    margin-left: 40px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-#main_content .best > .bestwrap {
-    font-size: 0;
-}
-
-#main_content .best > .bestwrap div {
+#main_content .best .bestwrap > div {
     display: inline-block;
-    width: 25%;
+    width: 23%;
+    margin: 1%;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border:  rgb(180, 180, 180) 1px solid;
+    box-sizing: border-box;
+}
+
+#main_content .best .bestwrap > div .price {
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+}
+
+.hovermsg {
+    font-size: 15px;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1.5px solid white;
+    background-color: rgba(255, 255, 255 , 0.5);
+    display: none;
+}
+
+#main_content .best .bestwrap > div .price h4:nth-child(1) {
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+#main_content .best .bestwrap > div .price h4:nth-child(2) {
+    float: right;
+    margin-right: 10%;
+    overflow: hidden;
 }
 
 #main_content .best .bestwrap > div img {
@@ -114,6 +150,99 @@
     height: auto;
 }
 
+#main_content .best .bestwrap > div img:hover {
+    opacity: 0.7;
+}
+
+#main_content .best .bestwrap > div img:hover + .hovermsg{
+    display: block;
+}
+
+/* 신상품 */
+
+#main_content .newproduct {
+    overflow: hidden;
+}
+
+#main_content .newproduct .newwrap{
+    overflow: hidden;
+    font-size: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#main_content .newproduct > h3 {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#main_content .newproduct .newwrap > div {
+    display: inline-block;
+    width: 23%;
+    margin: 1%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border:  rgb(180, 180, 180) 1px solid;
+    box-sizing: border-box;
+}
+
+#main_content .newproduct .newwrap > div .price {
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+}
+
+.hovermsg {
+    font-size: 17px;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1.5px solid white;
+    background-color: rgba(255, 255, 255 , 0.5);
+    display: none;
+}
+
+#main_content .newproduct .newwrap > div .price h4:nth-child(1) {
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+#main_content .newproduct .newwrap > div .price h4:nth-child(2) {
+    float: right;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+#main_content .newproduct .newwrap > div img {
+    max-width: 100%;
+    height: auto;
+}
+
+#main_content .newproduct .newwrap > div img:hover {
+    opacity: 0.7;
+}
+
+#main_content .newproduct .newwrap > div img:hover + .hovermsg{
+    display: block;
+}
+
+/* 인스타 연동 */
+/* 
+.insta {
+    height: 200px;
+} */
 
 /* 회원가입 혜택 안내 */
 

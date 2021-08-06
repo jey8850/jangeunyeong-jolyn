@@ -115,7 +115,7 @@ a { text-decoration: none;}
 }
 
 .hovermsg {
-    font-size: 17px;
+    font-size: 15px;
     position: absolute;
     width: 70%;
     top: 50%;
@@ -204,11 +204,15 @@ a { text-decoration: none;}
 #main_content .all .allwrap > div .price h4:nth-child(1) {
     float: left;
     margin-left: 10%;
+    margin-right: 10%;
+    height: 40px;
+
 }
 
 #main_content .all .allwrap > div .price h4:nth-child(2) {
     float: right;
-    margin-right: 5%
+    margin-right: 10%;
+    overflow: hidden;
 }
 
 #main_content .all .allwrap > div img:hover {
@@ -325,6 +329,7 @@ a { text-decoration: none;}
     
     #main_content .best .bestwrap > div .price > h4:nth-child(1) {
         width: 70%;
+        height: 60px;
     }
 
     #main_content .best .bestwrap > div .price > h4:nth-child(2) {
@@ -347,6 +352,7 @@ a { text-decoration: none;}
     
     #main_content .all .allwrap > div .price > h4:nth-child(1) {
         width: 70%;
+        height: 60px;
     }
 
     #main_content .all .allwrap > div .price > h4:nth-child(2) {
@@ -365,8 +371,8 @@ a { text-decoration: none;}
     }
 
     #main_content .all > .morewrap {
-        width: 84%;
-        margin-left: 8%;
+        width: 83.9%;
+        margin-left: 7.9%;
     }
 }
 
@@ -394,6 +400,10 @@ a { text-decoration: none;}
         margin-bottom: 20px;
     }
 
+    #main_content .all > .allwrap {
+        margin-left: 8%;
+    }
+
     #main_content .all > .allwrap div {
         width: 90%;
         margin-bottom: 20px;
@@ -412,7 +422,7 @@ a { text-decoration: none;}
     }
 
     #main_content .all > .morewrap {
-        width: 92%;
-        margin-left: 0.5%;
+        width: 92.3%;
+        margin-left: 3.2%;
     }
 }    
