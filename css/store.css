@@ -78,15 +78,16 @@ a { text-decoration: none;}
 #main_content .best .bestwrap{
     overflow: hidden;
     font-size: 0;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
 }
 
 #main_content .best > h3 {
     text-align: left;
-    margin-left: 40px;
+    margin-left: 5%;
+    margin-bottom: 20px;
 }
 
 #main_content .best .bestwrap > div {
@@ -156,15 +157,17 @@ a { text-decoration: none;}
 #main_content .newproduct .newwrap{
     overflow: hidden;
     font-size: 0;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
 }
 
 #main_content .newproduct > h3 {
     text-align: left;
-    margin-left: 40px;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #main_content .newproduct .newwrap > div {
@@ -241,8 +244,9 @@ a { text-decoration: none;}
 
 #main_content .reviewwrap > h3 {
     text-align: left;
-    margin-left: 40px;
-    padding-bottom: 50px;
+    margin-left: 5%;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #main_content .reviewwrap .review > div {

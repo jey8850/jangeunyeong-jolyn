@@ -1,0 +1,428 @@
+@charset "UTF-8";
+
+/* 초기화 */
+*{ margin: 0; padding: 0;}
+ul,li { list-style: none;}
+a { text-decoration: none;}
+
+/* 헤더 */
+
+/* 이미지 슬라이더 */
+.bxslider {
+    top: 61px;
+    min-width: 100%;
+    position: absolute;
+}
+
+/* 콘텐츠 */
+
+#main_content {
+    width: 80%;
+    float:right;
+    position: relative;
+}
+
+/* 메뉴 버튼 */
+
+#main_content .button {
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 1%;
+    padding-left: 1%;
+
+}
+
+#main_content .button > div {
+    float: left;
+    width: 33%;
+    height: 150px;
+    border: 5px solid white;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#main_content .button > div > a {
+    line-height: 140px;
+    color: white;
+    font-size: 3em;
+}
+
+#main_content > .button > div:nth-child(1) {
+    background-image: url("../img/27.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#main_content > .button > div:nth-child(2) {
+    background-image: url("../img/37.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#main_content > .button > div:nth-child(3) {
+    background-image: url("../img/38.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#main_content .button > div > a:hover {
+    color: orange;
+}
+
+
+/* 베스트 상품 */
+
+#main_content .best {
+    overflow: hidden;
+}
+
+#main_content .best .bestwrap{
+    overflow: hidden;
+    font-size: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#main_content .best > h3 {
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#main_content .best .bestwrap > div {
+    display: inline-block;
+    width: 23%;
+    margin: 1%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border:  rgb(180, 180, 180) 1px solid;
+    box-sizing: border-box;
+}
+
+#main_content .best .bestwrap > div .price {
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+}
+
+.hovermsg {
+    font-size: 15px;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1.5px solid white;
+    background-color: rgba(255, 255, 255 , 0.5);
+    display: none;
+}
+
+#main_content .best .bestwrap > div .price h4:nth-child(1) {
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+#main_content .best .bestwrap > div .price h4:nth-child(2) {
+    float: right;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+#main_content .best .bestwrap > div img {
+    max-width: 100%;
+    height: auto;
+}
+
+#main_content .best .bestwrap > div img:hover {
+    opacity: 0.7;
+}
+
+#main_content .best .bestwrap > div img:hover + .hovermsg{
+    display: block;
+}
+
+
+/* 상품 전체보기 */
+
+#main_content .all {
+    overflow: hidden;
+    text-align: center;
+}
+
+#main_content .all .allwrap{
+    overflow: hidden;
+    font-size: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#main_content .all > h3 {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#main_content .all .allwrap > div {
+    float: left;
+    width: 23%;
+    margin: 1%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgb(180, 180, 180);
+    box-sizing: border-box;
+}
+
+#main_content .all .allwrap > div img {
+    max-width: 100%;
+    height: auto;
+}
+
+#main_content .all .allwrap > div .price {
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+}
+
+#main_content .all .allwrap > div .price h4:nth-child(1) {
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 40px;
+
+}
+
+#main_content .all .allwrap > div .price h4:nth-child(2) {
+    float: right;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+#main_content .all .allwrap > div img:hover {
+    opacity: 0.5;
+}
+
+#main_content .all .allwrap > div img:hover + .hovermsg{
+    display: block;
+}
+
+#main_content .all .allwrap {
+    display: none;
+}
+
+#main_content .all > .morewrap {
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+
+#main_content .all > .morewrap > .more {
+    width: 88%;
+    margin-left: 6%;
+    padding: 10px;
+    border: rgb(180, 180, 180) 1px solid;
+    box-sizing: border-box;
+}
+
+
+/* 사이드 */
+
+#side_menu {
+    width: 20%;
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+#side_menu h1 {
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+#side_menu h3 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+
+#side_menu > div {
+    width: 80%;
+    border: 1px solid rgb(180, 180, 180);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#side_menu > div > ul > li {
+    padding-top: 15px;
+    padding-left: 10%;
+    font-weight: bold;
+}
+
+#side_menu > div > ul > li::after {
+    content: "";
+    display: block;
+    width: 90%;
+    border-bottom: rgb(180, 180, 180) 1px solid;
+    padding-bottom: 15px;
+}
+
+#side_menu > div > ul > li:last-child::after {
+    border-bottom: none;
+}
+
+
+#side_menu > div > ul > li > ul > li {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+.updown i:last-child {
+    display: none;
+}
+
+.updown {
+    float: right;
+    padding-right: 20%;
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+    #side_menu {
+        display: none;
+    }
+
+    #main_content {
+        width: 100%;
+    }
+
+    #main_content .best > .bestwrap div {
+        width: 40%;
+    }
+
+    #main_content .best .bestwrap > div .price {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    #main_content .best .bestwrap > div .price > h4:nth-child(1) {
+        width: 70%;
+        height: 60px;
+    }
+
+    #main_content .best .bestwrap > div .price > h4:nth-child(2) {
+        width: 30%;
+        margin-right: 10%;
+    }
+
+    #main_content .all > .allwrap {
+        margin-left: 12%;
+    }
+
+    #main_content .all > .allwrap div {
+        width: 40%;
+    }
+
+    #main_content .all .allwrap > div .price {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    #main_content .all .allwrap > div .price > h4:nth-child(1) {
+        width: 70%;
+        height: 60px;
+    }
+
+    #main_content .all .allwrap > div .price > h4:nth-child(2) {
+        width: 30%;
+        margin-right: 10%;
+    }
+
+    #main_content .all .allwrap > div img:hover + .hovermsg{
+        top: 45%;
+        width: 80%;
+    }
+
+    #main_content .best .bestwrap > div img:hover + .hovermsg{
+        top: 45%;
+        width: 80%;
+    }
+
+    #main_content .all > .morewrap {
+        width: 83.9%;
+        margin-left: 7.9%;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    
+    .bxslider {
+        display: none;
+    }
+
+    #side_menu {
+        display: none;
+    }
+
+    #main_content {
+        width: 100%;
+    }
+
+    #main_content .button > div {
+        width: 100%;
+    }
+
+    #main_content .best > .bestwrap div {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #main_content .all > .allwrap {
+        margin-left: 8%;
+    }
+
+    #main_content .all > .allwrap div {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .hovermsg {
+        width: 70%;
+    }
+
+    #main_content .best .bestwrap > div .price {
+        font-size: 25px;
+    }
+
+    #main_content .all .allwrap > div .price {
+        font-size: 25px;
+    }
+
+    #main_content .all > .morewrap {
+        width: 92.3%;
+        margin-left: 3.2%;
+    }
+}    
