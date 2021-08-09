@@ -6,15 +6,46 @@ $(document).ready(function(){
         pager: false, //불릿버튼
     }); 
 
+    $(".topsbtn").click(function(){
+        $(".product").hide();    
+        $(".tops").show();
+        $(".best").hide();
+    });
+
+    $(".bottomsbtn").click(function(){
+        $(".product").hide();    
+        $(".bottoms").show();
+        $(".best").hide();
+    });
+
+    $(".onebtn").click(function(){
+        $(".product").hide();    
+        $(".onepiece").show();
+        $(".best").hide();
+    });
+
+
     $(".topmore").click(function(){
         $(".product").hide();    
         $(".tops").show();
+        $(".best").hide();
     });
-
+    
     $(".topfixed").click(function(){
         $(".product").hide();    
         $(".fixed").show();
+        $(".best").hide();
     })
 
+    $(".toptie").click(function(){
+        $(".product").hide();    
+        $(".tie").show();
+        $(".best").hide();
+    })
+
+
+
+
+    
 });
 
