@@ -1,13 +1,3 @@
-// $(document).ready(function(){
-//     $('.bxslider').bxSlider({
-//         auto: true, // 자동 슬라이드 
-//         autoControls: false, // 시작, 정지버튼 노출 여부 
-//         controls: false, // prev/next 버튼 노출 여부 
-//         pager: flase, //불릿버튼
-//     }); 
-// });
-
-
 $(".store").mouseenter(function(){
     $(".community_sub").hide();
     $(".store_sub").show();
@@ -43,6 +33,7 @@ $(".trigger").on({
         if ($(".hamburger").is(":visible")) {
             /* 모바일 닫기 버튼 show */
             $(".hamburger").hide();
+            $(".logo").css('margin-left','-50px');
             $(".close").show();
             $(".menu").show();
             $(".lnb").hide();
@@ -55,6 +46,7 @@ $(".trigger").on({
 
         } else {  // 닫기 메뉴 버튼이 보일때
             /* 모바일 햄버거 버튼 show */
+            $(".logo").css('margin-left','42px');
             $(".hamburger").show();
             $(".close").hide();
             $(".menu").hide();

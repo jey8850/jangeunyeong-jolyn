@@ -108,7 +108,7 @@
     padding-bottom: 10px;
     overflow: hidden;
     position: relative;
-    border:  rgb(180, 180, 180) 1px solid;
+    border:  rgb(210, 210, 210) 1px solid;
     box-sizing: border-box;
 }
 
@@ -188,8 +188,9 @@
     padding-bottom: 10px;
     overflow: hidden;
     position: relative;
-    border:  rgb(180, 180, 180) 1px solid;
+    border:  rgb(210, 210, 210) 1px solid;
     box-sizing: border-box;
+    margin-bottom: 50px;
 }
 
 #main_content .newproduct .newwrap > div .price {
@@ -254,21 +255,27 @@
 }
 
 #main_content > .event > .eventimg2 {
-    background-color: #018def;
+    /* background-color: #018def; */
     line-height: 0px;
 }
 
 #main_content > .event > .eventimg3 {
-    background-color: #00a9c6;
+    /* background-color: #00a9c6; */
     line-height: 0px;
 }
 
 #main_content > .event > .eventimg4 {
     margin-top: 50px;
+        background-image: url("../img/logo.gif");
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
 }
 
 #main_content > .event > .message1 {
-    width: 100%;
+    width:100%;
     height: 500px;
 }
 
@@ -276,7 +283,7 @@
     margin-top: 150px;
     margin-bottom: 30px;
     font-size: 4em;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 #main_content > .event > .message1 > h3 {
@@ -290,7 +297,6 @@
     background-color: black;
     color: white;
 }
-
 
 .event > .formwrap form {
     /* background-image: url("../img/3.jpg"); */
@@ -337,8 +343,60 @@
         width: 100%;
     }
 
+    #main_content .best {
+        margin-top: 50px;
+    }
+
+    #main_content {
+        width: 100%;
+    }
+
     #main_content .best > .bestwrap div {
-        width: 50%;
+        width: 40%;
+    }
+
+    #main_content .best .bestwrap > div .price {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    #main_content .best .bestwrap > div .price > h4:nth-child(1) {
+        width: 70%;
+        height: 60px;
+    }
+
+    #main_content .best .bestwrap > div .price > h4:nth-child(2) {
+        width: 30%;
+        margin-right: 10%;
+    }
+
+    #main_content .newproduct > .newwrap div {
+        width: 40%;
+    }
+
+    #main_content .newproduct .newwrap > div .price {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    #main_content .newproduct .newwrap > div .price > h4:nth-child(1) {
+        width: 70%;
+        height: 60px;
+    }
+
+    #main_content .newproduct .newwrap > div .price > h4:nth-child(2) {
+        width: 30%;
+        margin-right: 10%;
+    }
+
+    #main_content .newproduct .newwrap > div img:hover + .hovermsg{
+        top: 45%;
+        width: 80%;
+    }
+
+    #main_content .best .bestwrap > div img:hover + .hovermsg{
+        top: 45%;
+        width: 80%;
     }
 
     .bxslider > li > div > h4 {
@@ -347,10 +405,6 @@
 
     #main_content > .event > .message1 {
         height: 680px;
-    }
-
-    #main_content > .event > .eventimg4 > img {
-        display: none;
     }
 
     #main_content > .event > .eventimg4 {
@@ -379,36 +433,35 @@
         display: block;
     }
 
-    #main_content .best {
-        margin-top: 50px;
-    }
-
-    #main_content {
-        width: 100%;
-    }
-
     #main_content .best > .bestwrap div {
-        width: 100%;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #main_content .newproduct > .newwrap div {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .hovermsg {
+        width: 70%;
+    }
+
+    #main_content .best .bestwrap > div .price {
+        font-size: 25px;
+    }
+
+    #main_content .newproduct .newwrap > div .price {
+        font-size: 25px;
     }
 
     #main_content > .event > .message1 {
         height: 900px;
     }
 
-    #main_content > .event > .eventimg2 > img {
-        display: none;
-    }
-
-    #main_content > .event > .eventimg3 > img {
-        display: none;
-    }
-
-    #main_content > .event > .eventimg4 > img {
-        display: none;
-    }
 
     #main_content > .event > .eventimg2 {
-        background-image: url("../img/9.jpg");
+        background-image: url("../img/49.jpg");
         width: 100%;
         height: 100vh;
         background-repeat: no-repeat;
@@ -423,6 +476,7 @@
         background-position: center;
     } */
 
+    
     #main_content > .event > .eventimg4 {
         background-image: url("../img/logo.gif");
         width: 100%;

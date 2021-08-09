@@ -5,5 +5,16 @@ $(document).ready(function(){
         controls: false, // prev/next 버튼 노출 여부 
         pager: false, //불릿버튼
     }); 
+
+    $(".topmore").click(function(){
+        $(".product").hide();    
+        $(".tops").show();
+    });
+
+    $(".topfixed").click(function(){
+        $(".product").hide();    
+        $(".fixed").show();
+    })
+
 });
 

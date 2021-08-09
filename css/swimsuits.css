@@ -104,7 +104,7 @@ a { text-decoration: none;}
     padding-bottom: 10px;
     overflow: hidden;
     position: relative;
-    border:  rgb(180, 180, 180) 1px solid;
+    border:  rgb(210, 210, 210) 1px solid;
     box-sizing: border-box;
 }
 
@@ -132,7 +132,6 @@ a { text-decoration: none;}
     height: 40px;
     margin-left: 10%;
     margin-right: 10%;
-    overflow: hidden;
 }
 
 #main_content .best .bestwrap > div .price h4:nth-child(2) {
@@ -186,7 +185,7 @@ a { text-decoration: none;}
     padding-bottom: 10px;
     overflow: hidden;
     position: relative;
-    border: 1px solid rgb(180, 180, 180);
+    border: 1px solid rgb(210, 210, 210);
     box-sizing: border-box;
 }
 
@@ -238,7 +237,7 @@ a { text-decoration: none;}
     width: 88%;
     margin-left: 6%;
     padding: 10px;
-    border: rgb(180, 180, 180) 1px solid;
+    border: rgb(210, 210, 210) 1px solid;
     box-sizing: border-box;
 }
 
