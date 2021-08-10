@@ -43,9 +43,41 @@ $(document).ready(function(){
         $(".best").hide();
     })
 
+    $(".bottommore").click(function(){
+        $(".product").hide();    
+        $(".bottoms").show();
+        $(".best").hide();
+    })
 
-
-
+    $(".bottomfull").click(function(){
+        $(".product").hide();    
+        $(".full").show();
+        $(".best").hide();
+    });
     
+    $(".bottomslim").click(function(){
+        $(".product").hide();    
+        $(".slim").show();
+        $(".best").hide();
+    })
+
+    $(".onepiecemore").click(function(){
+        $(".product").hide();    
+        $(".onepiece").show();
+        $(".best").hide();
+    })
+
+    $(".onefixed").click(function(){
+        $(".product").hide();    
+        $(".onefixed").show();
+        $(".best").hide();
+    });
+    
+    $(".onetie").click(function(){
+        $(".product").hide();    
+        $(".onetie").show();
+        $(".best").hide();
+    })
+
 });
 
