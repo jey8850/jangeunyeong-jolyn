@@ -30,6 +30,10 @@
     /* font-family: 'Indie Flower', cursive; */
 }
 
+.bxslider > li > div > .slidermsg {
+    font-family: 'Indie Flower', cursive;
+}
+
 .bxslider > li > div > h4 {
     position: absolute;
     top: 60%;
@@ -80,6 +84,8 @@
 
 #main_content {
     width: 100%;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 /* 베스트 상품 */
@@ -248,8 +254,6 @@
 .insta {
     height: 200px;
 } */
-
-/* 회원가입 혜택 안내 */
 
 
 #main_content > .event > .eventimg1 {

@@ -20,6 +20,7 @@ a { text-decoration: none;}
     width: 80%;
     float:right;
     position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 /* 메뉴 버튼 */
@@ -244,6 +245,7 @@ a { text-decoration: none;}
     float: left;
     padding-left: 30px;
     box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 #side_menu h1 {

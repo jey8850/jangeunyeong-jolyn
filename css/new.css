@@ -6,6 +6,9 @@ ul,li { list-style: none;}
 a { text-decoration: none;}
 
 /* 컨텐츠 */
+#main_content {
+    text-align: center;
+}
 #main_content div div img {
     max-width: 100%;
     height: auto;

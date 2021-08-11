@@ -7,6 +7,10 @@ a { text-decoration: none;}
 
 /* 컨텐츠 */
 
+#main_content {
+    text-align: center;
+}
+
 #fullpage > #section1 {
     background-image: url("../img/45.png");
     background-repeat: no-repeat;
