@@ -27,14 +27,16 @@
     left: 20%;
     font-size: 5em;
     color: white;
+    /* font-family: 'Indie Flower', cursive; */
 }
 
 .bxslider > li > div > h4 {
     position: absolute;
     top: 60%;
-    left: 50%;
+    left: 40%;
     font-size: 2em;
     color: white;
+    font-family: 'Indie Flower', cursive;
 }
 
 .bxslider > li > div > h3 {
@@ -70,6 +72,8 @@
     font-size: 3em;
     text-decoration: underline;
     background-color: rgb(255,166,0);
+    font-style: italic;
+    letter-spacing: 15px;
 }
 
 /* 콘텐츠 */
